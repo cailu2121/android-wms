@@ -16,19 +16,4 @@ that returns a WMSTileProvider, and has a custom WMS request format in a  String
 
 The main argument for using a WMS service that is not behind a tile cache (Which uses the TMS query format that more closely 
 aligns with Googles overlay feature) is that you can request features that are constructed on the fly.  Examples of this are 
-layers with selective styling using CQL queries.  It is relatively easy to add CQL parameters to the WMS query string above.
-
-Example WMS Query String from the demo:
-
-  final String OSGEO_WMS =
-    		  "http://vmap0.tiles.osgeo.org/wms/vmap0" +
-	    		"?service=WMS" +
-	    		"&version=1.1.1" +  			
-	    		"&request=GetMap" +
-	    		"&layers=basic" +
-	    		"&bbox=%f,%f,%f,%f" +
-	    		"&width=256" +
-	    		"&height=256" +
-	    		"&srs=EPSG:900913" +
-	    		"&format=image/png" +				
-	    		"&transparent=true";
+layers with selective styling using CQL queries.  It is relatively easy to add CQL parameters to the WMS query string.
