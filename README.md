@@ -1,19 +1,6 @@
 **Sample code for [WMS On Android](http://www.azavea.com/blogs/labs/2013/01/wms-on-android/) originally published
 in Android Weekly, 2013.**
 
-+ [src/com/example/wmsdemo/MainActivity.java] (https://github.com/shalperin/android-wms-demo/blob/master/src/com/example/wmsdemo/MainActivity.java) : 
-The demo application's activity.
-+ [src/com/example/wmsdemo/TileProviderFactory.java] (https://github.com/shalperin/android-wms-demo/blob/master/src/com/example/wmsdemo/TileProviderFactory.java):
-Initialize our WMSTileProvider with all of the static configuration that it needs to operate.
-+ [src/com/example/wmsdemo/WMSTileProvider.java] (https://github.com/shalperin/android-wms-demo/blob/master/src/com/example/wmsdemo/WMSTileProvider.java) : 
-The class that does all of the WMS work.
 
-So essentially, the steps to get WMS working in your application are:
-+ Create your own TileProviderFactory on the pattern of the one above.  The important part is that it has a static method
-that returns a WMSTileProvider, and has a custom WMS request format in a  String variable.
-+ Call the factory in your activity to get an instance of a WMSTileProvider
-+ In your activity, call map.addTileOverlay with newly minted WMSTileProvider instance.
 
-The main argument for using a WMS service that is not behind a tile cache (Which uses the TMS query format that more closely 
-aligns with Googles overlay feature) is that you can request features that are constructed on the fly.  Examples of this are 
-layers with selective styling using CQL queries.  It is relatively easy to add CQL parameters to the WMS query string.
+![WMS Image](http://auto2.cdn.azavea.com/blogs/labs/wp-content/uploads/2013/01/306x600xptm-phone-306x600.png.pagespeed.ic.9fKei2Oev9.png)
