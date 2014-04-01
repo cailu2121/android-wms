@@ -204,5 +204,7 @@ public class MapDisplay extends android.support.v4.app.FragmentActivity {
     This article presented a demonstration of a simple WMS client using Google's Android v2 Maps API.  It covered the math involved with converting from tile index/zoom level to Web Mercator bounding box, and showed how to compose a URL using these values and an instance of Google's UrlTileProvider class. 
 </p>
 
+
+### This article was covered in the following Google Maps Garage episode:
 <p><a href="https://www.youtube.com/watch?feature=player_embedded&v=U6ZbHAXPnhg"><img src="http://www.samhalperin.com/img/projects/wms-android/garage2.png"></a></p>
 <iframe width="560" height="315" src="//www.youtube.com/embed/U6ZbHAXPnhg" frameborder="0" allowfullscreen></iframe></div>
