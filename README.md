@@ -67,7 +67,7 @@ The number of tiles in either x or z at any zoom level is  n = 2^z.   With this,
 </p>
 
 
-![Map Bounds](http://www.samhalperin.com/image?key=ahNzfmhhbHBlcmluLWJsb2ctaHJkcg0LEgVJbWFnZRjivAsM)
+![Map Bounds](http://www.samhalperin.com/img/projects/wms-android/bounds-sketch.png)
 <p></p>
 
 <p>
