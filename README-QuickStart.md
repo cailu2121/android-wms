@@ -1,7 +1,8 @@
 Quick Start
 ===========
-1) Clone the git repo, what you get is an Android Studio project.
-2) Get a google V2 android maps API key and add it 
+1) Clone the git repo.
+2) **Import** this project into Android Studio.
+2) Get a Google V2 Android Maps API key and add it 
    to the manifest (see TODO in Manifest)
 4) Check that the demo WMS service in TileProviderFactory is still
     valid, or add your own.  (See the TODO in TileProviderFactory)
