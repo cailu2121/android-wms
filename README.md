@@ -7,6 +7,11 @@ Sam Halperin<br>
 email: <a href="mailto:sam@samhalperin.com">sam@samhalperin.com</a>
 </p>
 
+<p>
+    <i>There is also a README-QuickStart.md in the root of the GitHub
+repo.</i>
+</p>
+
 <center>
 ![WMS Image](http://auto2.cdn.azavea.com/blogs/labs/wp-content/uploads/2013/01/306x600xptm-phone-306x600.png.pagespeed.ic.9fKei2Oev9.png)
 <br><br>
